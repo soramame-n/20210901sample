@@ -29,9 +29,7 @@ const app = Vue.createApp({
           // q3: 'ききき',
         },
         stage4: {
-          q1: '810-0004',
-          q2: '7F',
-          q3: '2-4-8',
+          q1: '810-0004 7F 2-4-8',
         }
       },
 
@@ -53,9 +51,7 @@ const app = Vue.createApp({
           // false, // 3-3
         ],
         stage4: [
-          false, 4-1,
-          false, 4-2,
-          false, 4-3
+          false,
         ]
       },
 
@@ -110,7 +106,7 @@ app.component('answer-input', {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: '正解！',
-      ngMessage: '私）何も起きないなぁ……',
+      ngMessage: 'なつ）何も起きないなぁ……',
       message: '',
       inputAnswer: '',
     }
